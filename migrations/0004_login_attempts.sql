@@ -1,0 +1,7 @@
+CREATE TABLE login_attempts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  ip TEXT NOT NULL,
+  window_id INTEGER NOT NULL,
+  attempts INTEGER NOT NULL DEFAULT 0,
+  UNIQUE (ip, window_id)
+);

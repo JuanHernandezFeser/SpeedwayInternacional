@@ -1,0 +1,25 @@
+:root {
+  color-scheme: dark;
+  --blue: #0b3d91;
+  --yellow: #ffd400;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--blue);
+  color: #fff;
+}
+
+.placeholder {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.placeholder h1 {
+  text-transform: uppercase;
+  font-style: italic;
+  color: var(--yellow);
+}
